@@ -1,0 +1,79 @@
+/* style.css */
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: blue;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: aquamarine;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 32px;
+}
+main {
+    padding: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /*/gap: 20px;*/
+}
+
+.box {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+}
+
+ol {
+    margin: 0;
+    padding: 0;
+    list-style-type: decimal;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    color: white;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+        
+
+p{
+    font-family:'고딕', serifs;
+    font-size: 13px;
+}
+
+.main_text{
+    color: black;
+    font-size: 15px;
+}
+#special{
+    color: orange;
+    font-size: 20px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: auto;
+    border: 1px solid gray;
+
+}
+.목차{
+    border: 1px solid gainsboro;
+    padding-left: 50px
+}
+.목차 h3 {
+        font-size: 20px; 
+    }
